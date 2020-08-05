@@ -1,0 +1,45 @@
+.btn {
+    float: left;
+    margin-right: 10px;
+}
+button {
+    cursor: pointer;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: #333;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: #333;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background: #333;
+}
+ul {
+    margin: 5px 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+ul li {
+    list-style-type: none;
+    background: red;
+    padding: 10px;
+    border: 1px solid #000;
+    width: 100px;
+    transition: .60s;
+    cursor: pointer;
+}
+ul li:hover {
+    width: 130px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
